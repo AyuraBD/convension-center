@@ -6,6 +6,9 @@
 .package{
     padding:40px 20px;
 }
+.package ul{
+  padding: 0px;
+}
 .package_three{
     background-color: #3F87F5;
     border-radius: 20px;
