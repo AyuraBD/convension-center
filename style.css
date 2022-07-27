@@ -1,0 +1,126 @@
+/* banner caption */
+.carousel-caption{
+    padding:0px 250px;
+}
+/* Package */
+.package{
+    padding:40px 20px;
+}
+.package_three{
+    background-color: #3F87F5;
+    border-radius: 20px;
+    position: relative;
+    color:#ffffff;
+    shadow
+}
+.three{
+    position: relative;
+}
+.three::before{
+    position: absolute;
+    content: "Hot";
+    color: #ffffff;
+    background-color: red;
+    padding: 2px 5px;
+    top: -10px;
+    right: 60px;
+    border-radius: 10px;
+    z-index: 1;
+}
+.three
+.package ul{
+    padding:0px;
+}
+.package ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.package ul li i{
+    margin-right:10px;
+    padding:10px;
+    background-color: rgb(235, 240, 241); 
+    color:skyblue;
+    border-radius: 50%;
+    font-size:12px;
+}
+.package a{
+    background-color: #ecdcdc;
+    padding:10px 0px;
+    border-radius: 50px;
+    color:rgb(4, 70, 212);
+    font-weight: 600;
+}
+
+/* Happy Clients */
+
+.happy_clients .client{
+    text-align: center;
+    padding:10px;
+}
+.happy_clients .client p{
+    padding:0px 20px;
+    margin-bottom: 20px;
+    color:#555555;
+}
+.client img{
+    margin-bottom: 20px;
+}
+.client span{
+    color:#555555;
+    font-size:18px;
+    font-weight: 600;
+}
+
+/* Footer */
+footer img{
+  width:100px;
+}
+footer p{
+  margin-bottom: 0px;
+}
+
+/* Mobile Styles */
+@media (max-width: 560px) {
+  /* carousel caption */
+  header{
+    padding:5px 0px!important;
+  }
+  .carousel-caption{
+    padding:0px 20px!important;
+    display: block!important;
+  }
+  .carousel-caption h1{
+    font-size:25px!important;
+  }
+}
+@media (max-width: 768px) {
+  /* carousel caption */
+  .carousel-caption{
+      padding:0px 50px!important;
+      display: block!important;
+  }
+  .every_moment .row{
+    flex-direction: column-reverse;
+  }
+  .every_moment .right{
+    margin-bottom: 40px;
+  }
+  .happy_clients .client{
+    margin-bottom:30px!important;
+  }
+  .faq .accordion{
+    margin-bottom: 30px;
+  }
+  footer{
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .carousel-caption{
+    padding:0px 250px;
+    display: block!important;
+  }
+  /* .every_moment .row{
+    flex-direction: column;
+  } */
+}
