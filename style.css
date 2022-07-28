@@ -1,3 +1,7 @@
+
+header .collapse{
+  justify-content: end;
+}
 /* banner caption */
 .carousel-caption{
     padding:0px 250px;
@@ -95,8 +99,17 @@ footer p{
   .carousel-caption h1{
     font-size:25px!important;
   }
+  .every_moment .row{
+    flex-direction: column-reverse;
+  }
+  .every_moment .right{
+    margin-bottom: 40px;
+  }
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
+  header{
+    padding:0px;
+  }
   /* carousel caption */
   .carousel-caption{
       padding:0px 50px!important;
@@ -118,12 +131,16 @@ footer p{
     text-align: center;
   }
 }
-@media only screen and (max-width: 992px) {
+@media (min-width: 992px) {
   .carousel-caption{
-    padding:0px 250px;
+    padding:0px 30px;
     display: block!important;
   }
-  /* .every_moment .row{
-    flex-direction: column;
-  } */
+  .every_moment .right{
+    margin-bottom: 0px;
+  }
+
+  .every_moment .row{
+    flex-direction: row;
+  }
 }
